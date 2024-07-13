@@ -1,3 +1,1 @@
-# emergent_emanations
-# emergent_emanations
-# emergent_emanations
+A note about on how emergent spacetime can arise from matter emanations.
