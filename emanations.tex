@@ -19,7 +19,7 @@
 
 %title and author details
 \title{Emergent Spacetime from Matter Emanations}
-\author[1]{Kevin Player\footnote{kplaye@gmail.com}}
+\author[1]{Kevin Player\footnote{kjplaye@gmail.com}}
 
 \maketitle
 
@@ -27,7 +27,7 @@
 \epigraph{After long reflection in solitude and meditation, I suddenly had the idea, during the year 1923, that the discovery made by Einstein in 1905 should be generalised by extending it to all material particles and notably to electrons.}{Louis de Broglie}
 
 
-\abstract{Einstein taught us that matter doesn't just move through spacetime; it actively bends and shapes the spacetime it inhabits.  Building on this idea, we explore the possibility that De Broglie's matter waves can create an emergent spacetime, where space and time are intrinsic properties of matter. Along this journey, we uncover connections to quantum gravity and delve into how these insights can reshape our understanding.}
+\abstract{Einstein taught us that matter doesn't just move through spacetime; it actively bends and shapes the spacetime it inhabits.  Building on this reversal, we explore the possibility that De Broglie's matter waves can create an emergent spacetime, where space and time are intrinsic properties of matter. Along this journey, we uncover connections to quantum gravity and delve into how these insights can reshape our understanding.}
  
 \section{Counting Ticks for Emergent Time}
 
@@ -39,11 +39,11 @@ Recall that a massive particle with mass $m$, such as an electron, has a DeBrogl
 In this context, $\omega$ functions like a sampling rate or Nyquist rate for the matter in ticks per second.  This concept parallels Bremermann's limit where the constant $\frac{c^2}{\hslash}$ represents ticks per second per kg.  
 
 
-We treat the number of ticks, $|T|$ , as a quantum observable.  In fact we may not know the bounds $t_1,t_2$ but can still sometimes talk about the distribution of number of ticks say between two events, like particle emissson and detection.  The number of ticks is a wave function $\varphi$ in the Hilbert space $H(T)$,
+We treat the number of ticks, $|T|$ , as a quantum observable.  In fact we may not know the bounds $t_1,t_2$ but can still sometimes talk about the distribution of number of ticks say between two events such as particle emissson and detection.  The number of ticks is a wave function $\varphi$ in the Hilbert space $H(T)$,
 \[
    H(T) = \mathrm{Span}(\ket{0}, \ket{1}, \cdots)
 \]
-It will act as an emergent representation of time for the particle. Since this time is relative to the particle itself, and not to an external observer, it resembles the concept of proper time.  Next we move on to space.
+It will act as an emergent representation of time for the particle. Since the number of ticks is relative to the particle itself, and not to an external observer, it resembles most closely the concept of proper time.  Next we move on to space.
 
 \section{Double Slit for Emergent Space}
 
@@ -51,12 +51,12 @@ It will act as an emergent representation of time for the particle. Since this t
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{double_slit.png}
-\caption{Typical double slit setup.  $D$ is the distance between screens $A$ and $B$. $\Delta s = s_2 - s_1$ is the distance between slits.  $\Delta x$ is the distance between fringes. $\Delta L = \lambda$ is the difference of path lengths.  $\frac{\lambda D}{l_p^2} = \alpha$ is a ``count'' of Planck length squares.}
+\caption{Typical double slit setup.  $D$ is the distance between screens $A$ and $B$. $\Delta s = s_2 - s_1$ is the distance between slits.  $\Delta x$ is the distance between constructive fringes. $\Delta L = \lambda$ is the difference of path lengths.  $\frac{\lambda D}{l_p^2} = \alpha$ is a ``count'' of Planck length squares.}
 \label{screen}
 \end{figure}
 
 
-Consider the situation in Figure \ref{screen}.  The particle of mass $m$ is in quantum superposition, going through two slits, $s_1$ and $s_2$, on a one dimensional screen $A$. Let B be another screen behind $A$ with distance $D$ between them. Then for any time $t$ and position $x$, causally beyond $s_1$ and $s_2$, we have the number of ticks $n_1$ with repect to $s_1$ and $n_2$ with repect to $s_2$. So $(n_1,n_2)$ is a function of $(t,x)$. Note that the interference patterns that appear on a screen $B$ are given by fringes each of which can be labeled by a unique $k = n_2 - n_1$.
+Consider the situation in Figure \ref{screen}.  The particle of mass $m$ is in quantum superposition, going through two slits, $s_1$ and $s_2$, on a one dimensional screen $A$. Let B be another screen behind $A$ with distance $D$ between them. Then for any time $t$ and position $x$, causally beyond $s_1$ and $s_2$, we have the number of ticks $n_1$ with repect to $s_1$ and $n_2$ with repect to $s_2$. So $(n_1,n_2)$ is a function of $(t,x)$. Note that the interference patterns that appear on a screen $B$ are given by fringes of constructive interference each of which can be labeled by a unique $k = n_2 - n_1$.
 
 We can use this to describe how space emerges as a property of the massive particle by considering the Hilbert space for both paths jointly $H(T_1,T_2)$
 \[
@@ -66,11 +66,12 @@ We can use this to describe how space emerges as a property of the massive parti
   & = \sum_{k \in \mathbb{Z}} \mathrm{Span}(\{\ket{i} \otimes \ket{j} : i,j \in \mathbb{Z}_{\ge 0}, i-j = k\}) \\
 \end{split}
 \]
-and then considering the projection-valued measure $\{\Pi_k\}$ that picks out the space-like fringes $k$.
+Then we consider the projection-valued measure $\{\Pi_k\}$ that picks out the space-like fringes, where $k$ labels the summands spaces above.
 
 Let $L_1$ and $L_2$ be the lengths of the path from the source to the screen for the particle going through $s_1$ and $s_2$ respectively. Let the particle have a wavelength of $\lambda = \Delta L$ and we consider the first noncentral fringe, $k=1$, at distance $\Delta x$ away from the center.  We have $L_i = \sqrt{y_i^2 + D^2}$ and approximating the square root we have $\lambda \approx \frac{\Delta s \Delta x}{D}$.
 
-Consider the local behaviour of the interference pattern near the middle of $B$ (the central fringe $k=0$). The fringe pattern is locally made up of a combination of a part in space (fringes) and a part in time (particle evolution). Let $n_{1,2} = (n_1, n_2)$ label the antinodes of this pattern in space-time. The antinodes each pick out individual $n_{1,2}$ values, associated with the zero phase. We can write out a 2d joint frequency $\nu = \omega^2$ (in Hz * Hz) of this pattern using $\Delta x$ and $\Delta t$.  Using the mass energy of the particle $E_\hslash = \hslash \omega = \frac{\hslash}{\Delta t}$, we have
+\subsection{Double Slit Tick Equations}
+Back to the one dimensional screen case.  Consider the local behaviour of the interference pattern near the middle of $B$ (the central fringe $k=0$). The fringe pattern is locally made up of a combination of a part in space (fringes) and a part in time (particle evolution). Let $n_{1,2} = (n_1, n_2)$ label the antinodes of this pattern in space-time. The antinodes each pick out individual $n_{1,2}$ values, associated with the zero phase. We can write out a 2d joint frequency $\nu = \omega^2$ (in Hz * Hz) of this pattern using $\Delta x$ and $\Delta t$.  Using the mass energy of the particle $E_\hslash = \hslash \omega = \frac{\hslash}{\Delta t}$, we have
 \begin{equation}
 \label{nu_h}
   \nu = \frac{c}{\Delta x \Delta t} = \frac{c}{\hslash \lambda D} E_\hslash \Delta{s}
@@ -99,7 +100,7 @@ We have written $\nu$ in two ways, equations (\ref{nu_h}) and (\ref{nu_G}). Sett
 \label{count}
 \lambda D = \frac{E_\hslash}{E_G} l_p^2 = \alpha l_p^2
 \end{equation}
-where $l_p$ is the Planck length and we define $\alpha = \frac{E_\hslash}{E_G}$. Equation (\ref{count}) suggestively counts Planck areas in $\lambda D$ as the unitless $\alpha$:
+where $l_p$ is the Planck length and we define $\alpha = \frac{E_\hslash}{E_G}$. Equation (\ref{count}) suggestively counts Planck areas in $\lambda D$ in terms of the unitless $\alpha$:
 \begin{equation}
 \label{count2}
    \alpha = \frac{\lambda D}{l_p^2}
@@ -117,11 +118,16 @@ where $v_e$ is an escape velocity.  With this understanding we must have
 \label{ine}
    E_\hslash \ge E_G
 \end{equation}
+and
+\begin{equation}
+\label{alphaone}
+  \alpha \ge 1 
+\end{equation}
 and the following are equivalent
 \begin{enumerate}
-\item Equation (\ref{ine}) is an equality.
-\item Unitless $\frac{v_e}{c}$ is 1.
-\item Unitless $\alpha$ is 1.
+\item $E_\hslash = E_G$
+\item $v_e = c$
+\item $\alpha = 1$
 \item The particle is a black hole.
 \end{enumerate}
 In the black hole case the suggestive count of $\alpha$ in equation (\ref{count2}) is related to the count of Planck areas on the event horizon of a black hole.  To see this let the surface area of the black hole be $A = 4 \gamma \lambda D$.  Using black hole thermodynamics \cite{bekenstein}, we have an entropy $S_\text{BH}$ with
@@ -132,10 +138,23 @@ In the black hole case the suggestive count of $\alpha$ in equation (\ref{count2
 
 \subsection{Information and Acceleration}
 
-The treatment in this note extends to the less exotic $v_e < c$ case.  For the Schwarzschild metric we have a unitless time dialation factor $\tau = \sqrt{1 - \left(\frac{v_e}{c}\right)^2}$.  Using equation (\ref{escape}) we can use the unitless $\alpha$ to write
+The treatment in this note extends to the less exotic $v_e < c$ case.  For the Schwarzschild metric we have a unitless time dialation factor $\tau = \sqrt{1 - \left(\frac{v_e}{c}\right)^2}$.  Using equation (\ref{escape}) we can relate this to the unitless $\alpha$ by writing
 \[
 \tau = \sqrt{1 - \frac{1}{\alpha}}
 \]
+
+
+\subsection{Appendix: Triple Holes Set up}
+
+The situation in three dimensions is similar which we breifly cover.  Suppose we have three holes in a two dimensional screen with another screen behind it.  We then have three tick counters $n_1$, $n_2$ and $n_3$ and there is a two dimensional space indexing the 2d fringe pattern by the two dimensional space spanned by $n_1 - n_2$ and $n_1 - n_3$.  We could add more holes as well.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.5]{triple_hole.png}
+\caption{Fringe pattern on 2d screen behind a triple hole.}
+\label{screen}
+\end{figure}
+
 
 \section{TODO}
 \begin{enumerate}
